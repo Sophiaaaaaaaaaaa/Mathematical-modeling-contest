@@ -27,7 +27,7 @@ class PSO():
 
 
     def function(self, X):
-      return X ** 3 - 4 * X**2 + 3
+      return X ** 3 - 4 * X**2 + 3 #在这里输入你要优化的函数  Enter the function you want to optimize here
 
 
 # ---------------------初始化种群----------------------------------
