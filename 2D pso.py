@@ -33,7 +33,7 @@ def getrangepop():
     # 粒子的位置的范围限制,x、y方向的限制相同
     rangepop = (-2,2)
     return rangepop
-
+#在此输入你要优化的函数Enter the function you want to optimize here
 def func(x):  # x输入粒子位置 # y 粒子适应度值
     if (x[0] == 0) & (x[1] == 0):
         y=x[0]**2-2*x[0]*x[1] + 9
